@@ -1,2 +1,2 @@
 ## Bookmarkd Lab and Homework Backend side
-### Renz, Mark, Nicole
+### Renz, Mike, Nicole
