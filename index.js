@@ -5,10 +5,14 @@ const PORT = 4000
 const morgan = require("morgan");
 const cors = require("cors")
 // const bookmarkController = require("./controller/bookmarkController")
+
+
 const bookmarkController = require("./controller/bookmarkController");
 app.use(morgan("tiny"));
 app.use(cors())
 app.use(express.urlencoded({ extended: true}));
+app.use(express.json())
+
 
 app.use("/book", bookmarkController);
 
